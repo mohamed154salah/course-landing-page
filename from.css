@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#dae1ed;
+  opacity: .9;
+  color: #cff5a2;
+  width: 100%;
+  height: 100%;
+
+}
+/* Css for header and his component*/
+
+header{
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  width: 100%;
+  border-radius: 15px;
+}
+h1{
+  color: #000000;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: sans-serif ;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #eee;
+
+}
+
+ul li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 2em;
+}
+
+li a:hover {
+  transform: scale(1.2);
+
+}
+/* Css for form and his component*/
+.for{
+margin-top:9%;
+padding-left: 50px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  width: 100%;
+}
+.hed{
+  color: #000000;
+text-align: center;
+font-size: 1.5em;
+margin: 1%;
+}
+#email{
+  margin: 1%;
+  font-size: 20px;
+}
+.submit-button{
+    padding: 1%;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: #3198fd;
+    cursor:pointer;
+}
+/* Css for font awesomecode  and his component*/
+.fontawesome{
+  display: flex;
+  margin: auto 0;
+  margin: 3%;
+  text-align: center;
+}
+
+.fab{
+  display: flex;
+  margin: auto 0;
+}
+.content{
+  margin: 3%;
+  padding: 1%;
+}
+.fab:hover{
+background-color: #eb0000;
+}
+.far{
+  margin: 3%;
+}
+/* Css for video  and his component*/
+iframe{
+  display: flex;
+  margin: auto;
+}
+/* Css for prices  and his component*/
+.last{
+  display: flex;
+  text-align: center;
+}
+ol{
+  list-style-type: none;
+  margin: 2%;
+
+}
+.product{
+  border: 1px solid black;
+  margin: 2%;
+  text-align: center;
+  width: 35%;
+  margin-top: 50px;
+  box-shadow: 0 0 17px 0px black;
+}
+.btn{
+  margin: 2%;
+  background-color: yellow;
+  font-size: 30px;
+  border: none;
+  cursor:pointer;
+
+}
+@media  (max-width:850px) {
+  header{
+
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: inline;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+  width: 100%;
+  border-radius: 15px;
+}
+.for{
+    margin-top:25%;
+    align-items: center;
+}
+.fontawesome{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  margin: 3%;
+  text-align: center;
+}
+.last{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto 0;
+
+}
+.product{
+  border: 1px solid black;
+  margin: 2%;
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  margin-top: 50px;
+  box-shadow: 0 0 17px 0px black;
+}
+.vid{
+position: relative;
+width: 100%;
+padding-bottom: 56.25%;
+height: 0;
+}
+.vid iframe{
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+}
